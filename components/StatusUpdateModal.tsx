@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Truck, Status } from '../types.ts';
+import { Truck, Status } from '../types.js';
 
 interface StatusUpdateModalProps {
   isOpen: boolean;

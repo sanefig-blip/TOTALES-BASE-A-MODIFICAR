@@ -1,12 +1,12 @@
 import React from 'react';
-import { Truck, Status } from '../types.ts';
-import { FireTruckIcon } from './icons/FireTruckIcon.tsx';
-import { UsersIcon } from './icons/UsersIcon.tsx';
-import { EditIcon } from './icons/EditIcon.tsx';
-import { PlusIcon } from './icons/PlusIcon.tsx';
-import { XCircleIcon } from './icons/XCircleIcon.tsx';
-import { MoveIcon } from './icons/MoveIcon.tsx';
-import { CogIcon } from './icons/CogIcon.tsx';
+import { Truck, Status } from '../types.js';
+import { FireTruckIcon } from './icons/FireTruckIcon.js';
+import { UsersIcon } from './icons/UsersIcon.js';
+import { EditIcon } from './icons/EditIcon.js';
+import { PlusIcon } from './icons/PlusIcon.js';
+import { XCircleIcon } from './icons/XCircleIcon.js';
+import { MoveIcon } from './icons/MoveIcon.js';
+import { CogIcon } from './icons/CogIcon.js';
 
 interface TruckCardProps {
   truck: Truck;
