@@ -1,7 +1,6 @@
-
 import React from 'react';
-import { Truck } from '../types.ts';
-import TruckCard from './TruckCard.tsx';
+import { Truck } from '../types.js';
+import TruckCard from './TruckCard.js';
 
 interface TruckListProps {
   trucks: Truck[];
