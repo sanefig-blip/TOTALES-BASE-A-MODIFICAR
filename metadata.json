@@ -1,0 +1,5 @@
+{
+  "name": "Gestión de Unidades de Bomberos",
+  "description": "Una aplicación para asignar oficiales a cargo y registrar la cantidad de personal por cada camión de bomberos en tiempo real.",
+  "requestFramePermissions": []
+}
