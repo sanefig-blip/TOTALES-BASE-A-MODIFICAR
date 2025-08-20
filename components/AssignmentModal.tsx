@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Truck } from '../types.js';
-import { PlusIcon } from './icons/PlusIcon.js';
-import { XCircleIcon } from './icons/XCircleIcon.js';
+import { Truck } from '../types.ts';
+import { PlusIcon } from './icons/PlusIcon.tsx';
+import { XCircleIcon } from './icons/XCircleIcon.tsx';
 
 
 interface AssignmentModalProps {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Truck } from '../types.js';
+import { Truck } from '../types.ts';
 
 interface MoveTruckModalProps {
   isOpen: boolean;

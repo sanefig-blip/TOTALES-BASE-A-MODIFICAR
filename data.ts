@@ -1,4 +1,4 @@
-import { Truck } from './types.js';
+import { Truck } from './types.ts';
 
 export const initialTrucks: Truck[] = [
   // ZONA I

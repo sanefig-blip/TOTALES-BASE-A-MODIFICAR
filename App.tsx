@@ -1,11 +1,11 @@
 import React, { useState, useMemo, useCallback } from 'react';
-import { Truck, Status } from './types.js';
-import AssignmentModal from './components/AssignmentModal.js';
-import MoveTruckModal from './components/MoveTruckModal.js';
-import StatusUpdateModal from './components/StatusUpdateModal.js';
-import { FireTruckIcon } from './components/icons/FireTruckIcon.js';
-import StationSection from './components/StationSection.js';
-import { initialTrucks, initialCrews } from './data.js';
+import { Truck, Status } from './types.ts';
+import AssignmentModal from './components/AssignmentModal.tsx';
+import MoveTruckModal from './components/MoveTruckModal.tsx';
+import StatusUpdateModal from './components/StatusUpdateModal.tsx';
+import { FireTruckIcon } from './components/icons/FireTruckIcon.tsx';
+import StationSection from './components/StationSection.tsx';
+import { initialTrucks, initialCrews } from './data.ts';
 
 function App() {
   const [trucks, setTrucks] = useState<Truck[]>(initialTrucks);

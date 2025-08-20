@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Truck, Status } from '../types.js';
-import TruckList from './TruckList.js';
-import { UsersIcon } from './icons/UsersIcon.js';
-import { ChevronDownIcon } from './icons/ChevronDownIcon.js';
-import { PlusIcon } from './icons/PlusIcon.js';
-import { XCircleIcon } from './icons/XCircleIcon.js';
+import { Truck, Status } from '../types.ts';
+import TruckList from './TruckList.tsx';
+import { UsersIcon } from './icons/UsersIcon.tsx';
+import { ChevronDownIcon } from './icons/ChevronDownIcon.tsx';
+import { PlusIcon } from './icons/PlusIcon.tsx';
+import { XCircleIcon } from './icons/XCircleIcon.tsx';
 
 interface StationSectionProps {
   stationName: string;
